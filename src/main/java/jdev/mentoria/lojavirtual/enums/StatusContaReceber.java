@@ -1,12 +1,12 @@
 package jdev.mentoria.lojavirtual.enums;
 
-public enum TipoEndereco {
+public enum StatusContaReceber {
 
-	COBRANCA("Cobrança"), ENTREGA("Entrega");
+	COBRANCA("Cobrança"), VENCIDA("Vencida"), ABERTA("Aberta"), QUITADA("Quitada");
 
 	private String descricao;
 
-	private TipoEndereco(String descricao) {
+	private StatusContaReceber(String descricao) {
 		this.descricao = descricao;
 	}
 
